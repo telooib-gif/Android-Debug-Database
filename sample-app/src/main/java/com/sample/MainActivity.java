@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
 
         sharedPreferences.edit().putString("testOne", "one").commit();
         sharedPreferences.edit().putInt("testTwo", 2).commit();
-        sharedPreferences.edit().putLong("testThree", 100000L).commit();
+       v sharedPreferences.edit().putLong("testThree", 100000L).commit();
         sharedPreferences.edit().putFloat("testFour", 3.01F).commit();
         sharedPreferences.edit().putBoolean("testFive", true).commit();
         sharedPreferences.edit().putStringSet("testSix", stringSet).commit();
