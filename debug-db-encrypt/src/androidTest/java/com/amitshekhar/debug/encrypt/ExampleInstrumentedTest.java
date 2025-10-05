@@ -23,4 +23,4 @@ public class ExampleInstrumentedTest {
 
         assertEquals("com.amitshekhar.debug.encrypt.test", appContext.getPackageName());
     }
-}
+} 
